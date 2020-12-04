@@ -1,0 +1,2 @@
+{:paths ["src"]
+ :deps {ring/ring {:mvn/version "1.8.2"}}}
