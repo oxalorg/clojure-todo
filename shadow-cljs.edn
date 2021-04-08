@@ -1,7 +1,9 @@
 {:source-paths ["src"]
  :dependencies [[binaryage/devtools "1.0.0"]
                 [nrepl "0.7.0"]
-                [reagent "0.10.0"]]
+                [reagent "0.10.0"]
+                [reagent-forms "0.5.44"]
+                [lambdaisland/fetch "0.0.23"]]
  :builds       {:app {:target     :browser
                       :output-dir "public/js"
                       :asset-path "/js"
